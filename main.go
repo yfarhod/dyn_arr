@@ -11,9 +11,9 @@ func findUniquePaths(row int, col int, board [][]string, mem [][]int) int {
 }
 
 func makeBoard(rows int, cols int) [][]string {
-	return 1
+	return make([][]string, rows)
 }
 
 func makeMem(rows int, cols int) [][]int {
-	return 1
+	return make([][]int, rows)
 }
